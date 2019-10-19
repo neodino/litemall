@@ -11,6 +11,7 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     //九键输入法的 「mall」= 「6255」
+    host: '0.0.0.0',
     port: 6255,
   },
   chainWebpack: config => {

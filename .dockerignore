@@ -1,0 +1,15 @@
+# Ignore everything
+**
+
+# Allow files and directories
+!/litemall-db/sql/**
+!/litemall-all/target/litemall-all-0.1.0-exec.jar
+#
+#!/src/**
+
+# Ignore unnecessary files inside allowed directories
+# This should go after the allowed directories
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
